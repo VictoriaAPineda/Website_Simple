@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+}
+h1{
+    color: #ffffff;
+    font-size: 24px;
+    
+
+}
+/* Naviagtion Menu */ 
+#header{
+    display: flex;
+    /*elements inside parent are split*/ 
+    justify-content:space-between;
+    align-items: center; /* aligned vertically*/
+    padding: 20px 90px;
+    background-color: #1f2937;
+}
+#navbar{
+    /* links are horizontal*/
+    display: flex;
+
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+#navbar li a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 60px 90px;
+    gap:30px; /* gap/ space between the two divs */
+}
+#hero-img{
+    background-color: rgb(102, 117, 123);
+    width: 500px;
+    min-width: 400px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-text h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+#hero-text p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+.sign-btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #ffffff;
+    border: none;
+}
+#hero-img p{
+    color: #ffffff;
+}
+
+#information{
+    text-align: center;
+    padding: 40px 60px;
+}
+
+#info-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 250px;
+    padding: 30px;
+}
+.base-img{
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+.img-caption{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#quote-section{
+    background-color: #e5e7eb;
+}
+#quote-text{
+    padding: 100px 200px;
+}
+
+#quote-text .quote{
+    color: #1f2937;
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+}
+#quote-text .name{
+    text-align: right;
+    font-weight: bolder;
+}
+
+#signup-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 80px 100px ;
+}
+#sign-banner{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: 15vh;
+    align-items: center; 
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 20px 50px;
+}
+#sign-banner #banner-txt p{
+    color: #ffffff;
+}
+#banner-txt{
+    margin-right: 50px;
+}
+#banner-txt .bold-txt{
+    font-weight: bold;
+}
+button.sign-btn-invert {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: 3px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 50px 0px;
+}
